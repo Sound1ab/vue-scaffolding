@@ -28,7 +28,17 @@ module.exports = {
                 functions: 'ignore'
             }
         ],
-        'no-tabs': ['error']
+        'no-tabs': ['error'],
+        'vue/html-indent': [
+            'error',
+            4,
+            {
+                attribute: 1,
+                closeBracket: 0,
+                alignAttributesVertically: true,
+                ignores: []
+            }
+        ]
     },
     globals: {
         expect: true,
