@@ -1,0 +1,49 @@
+// variables //
+
+// Layout
+
+$headerWidth: 250;
+
+// Typography
+// -------------------------
+
+// family
+$ffBase: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+
+$ffSecondary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+
+$ffHeadings: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+
+// style
+$fzBase: 16 !default;
+$lhBase: 19 !default;
+$fwBase: 400;
+
+// Colours
+//2a2736
+$primary-colour: #121212;
+$secondary-colour: #f4f3f4;
+$tertiary-colour: #e24347;
+$quaternary-colour: #6fb98f;
+$quinary-colour: #6fb98f;
+
+// Headings
+// -------------------------
+
+$headings: '.alpha', '.beta', '.gamma', '.delta';
+$headingSizes: 40, 32, 24, 18;
+$headingFamilies: $ffHeadings, $ffHeadings, $ffHeadings, $ffHeadings;
+$headingColors: inherit, inherit, inherit, inherit;
+$headingMargins: 16, 16, 8, 4;
+$headingLineHeights: 34, 30, 26, 24;
+$headingFontWeights: 300, 300, 500, 500;
+$breakpoints: (
+    xs: 480px,
+    s: 640px,
+    m: 960px,
+    l: 1200px,
+    xl: 1440px
+);
